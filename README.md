@@ -78,7 +78,7 @@ Setup
     
     ```
     sudo cp net.nandoe.proxy.plist /Library/LaunchDaemons/
-    sudo launchtl load net.nandoe.proxy.plist
+    sudo launchtl load /Library/LaunchDaemons/net.nandoe.proxy.plist
     ```
     
     
