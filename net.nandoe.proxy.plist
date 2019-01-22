@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>Label</key>
+    <string>net.nandoe.proxy</string>
+    <key>EnvironmentVariables</key>
+    <dict>
+      <key>PROXY_USER</key>
+      <string>username</string>
+      <key>PROXY_PASSWORD</key>
+      <string>password</string>
+    </dict>
+    <key>Program</key>
+    <string>/opt/proxy</string>
+    <key>RunAtLoad</key>
+    <true/>
+    <key>KeepAlive</key>
+    <true/>
+    <key>StandardOutPath</key>
+    <string>/var/log/proxy.log</string>
+    <key>StandardErrorPath</key>
+    <string>/var/log/proxy.log</string>
+  </dict>
+</plist>
